@@ -25,3 +25,30 @@ Clone the repository to your local machine using the following command:
 
 ```bash
 git clone https://github.com/<your-username>/firstapp.git
+```
+#2. Navigate to the Project Directory
+Change to the project directory:
+```bash
+cd firstapp
+```
+#3. Build the Project
+Use Maven to build the project. This will compile the code and download any necessary dependencies specified in the pom.xml file:
+```bash
+mvn clean install
+```
+#4. Run the Application
+You can run the application by executing the App class. If you have a main method in your App class, use the following command:
+```bash
+mvn exec:java -Dexec.mainClass="com.solo.sahej.App"
+```
+#5. Run the Tests
+To run the unit tests and verify that everything is functioning correctly, use:
+```bash
+mvn test
+```
+To run the test cases defined in your AppTest.java file, you'll need to execute them using Maven. Here's how you can do that and what to expect as output:
+
+#Running the Tests
+Open a Terminal: Make sure you're in the root directory of your project (where the pom.xml file is located).
+
+Run the Tests: Execute the following command:
