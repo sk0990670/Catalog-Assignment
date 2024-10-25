@@ -46,6 +46,9 @@ To run the unit tests and verify that everything is functioning correctly, use:
 ```bash
 mvn test
 ```
+## Screenshot
+
+![Vs code image](https://github.com/sk0990670/Catalog-Assignment/blob/main/Screenshot%202024-10-25%20122025.png)
 ### Test Case Output for testLagrangeInterpolation
 To run the test cases defined in your AppTest.java file, you'll need to execute them using Maven. Here's how you can do that and what to expect as output:
 
